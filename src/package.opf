@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="en"
+	unique-identifier="pub-id" prefix="cc: http://creativecommons.org/ns#">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+		<dc:title id="title">Psychotherapy: Purpose, Principles and Practice</dc:title>
+		<meta refines="#title" property="title-type">main</meta>
+		<dc:creator id="creator">Jesus of the Course</dc:creator>
+		<meta refines="#creator" property="role" scheme="marc:relators">aut</meta>
+		<dc:identifier id="pub-id">4834095a-7ea1-4d5f-b34a-70bd82640c53
+		</dc:identifier>
+		<dc:language>en</dc:language>
+		<meta property="dcterms:modified">2021-07-22T12:00:00Z</meta>
+		<dc:publisher>David Porter</dc:publisher>
+		<meta refines="#contrib1" property="role" scheme="marc:relators">mrk</meta>
+		<dc:rights>Permission neither sought nor granted.</dc:rights>
+		<link rel="cc:license"
+			href="http://creativecommons.org/licenses/by-sa/3.0/" />
+	</metadata>
+	<manifest>
+		<item id="cover-image" properties="cover-image" href="cover.jpg" media-type="image/jpeg" />
+		<item id="titlepage" href="titlepage.xhtml" media-type="application/xhtml+xml" />
+		<item id="toc" properties="nav" href="toc.xhtml" media-type="application/xhtml+xml" />
+
+		<item id="ch1" href="ch1.xhtml"  media-type="application/xhtml+xml" />
+		<item id="ch2" href="ch2.xhtml"  media-type="application/xhtml+xml" />
+		<item id="ch3" href="ch3.xhtml"  media-type="application/xhtml+xml" />
+		<item id="ch4" href="ch4.xhtml"  media-type="application/xhtml+xml" />
+	</manifest>
+
+	<spine>
+		<itemref idref="titlepage" />
+		<itemref idref="toc" />
+		<itemref idref="ch1" />
+		<itemref idref="ch2" />
+		<itemref idref="ch3" />
+		<itemref idref="ch4" />
+	</spine>
+
+</package>
